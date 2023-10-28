@@ -47,9 +47,8 @@ impl CosmosEntity for ChatStory {
     }
 }
 
-const PRIMARY_KEY: &str =
-    "in3Hpy5a4zYg0L6ajN24FuRwPSR8nFBoccrE8OA6O1y9KG4km73dtJBEMPnI4YpVK65e9ul6tVfYACDbxzYmWw==";
-const ACCOUNT: &str = "longson";
+const PRIMARY_KEY: &str = "";
+const ACCOUNT: &str = "";
 const DB_NAME: &str = "ChatMaster";
 const COLLECTION_NAME: &str = "ChatStories";
 
