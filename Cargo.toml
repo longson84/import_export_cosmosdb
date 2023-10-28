@@ -1,0 +1,13 @@
+[package]
+name = "ImportExportCosmosDB"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+azure_data_cosmos = "0.16.0"
+azure_core = "0.16.0"
+serde = "1.0.190"
+serde_json = { version = "1.0.107", features = [] }
+tokio = {version = "1.33.0", features = ["full"] }
